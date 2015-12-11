@@ -1,25 +1,40 @@
 //
 //  ViewController.swift
-//  SwiftClosure
-//
-//  Created by shen on 15/12/11.
-//  Copyright © 2015年 shen. All rights reserved.
-//
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,callBackDelegate{
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let process=ProcessData()
+        process.delegate=self
+        
+        //block回调
+        process.blockproerty={ (backMsg) in
+            print(backMsg)
+        }
+        
+        //执行函数
+        process.processMethod("aaa")
+        
+        //函数内回调
+        process.processWithBlock("bbb") { (backMsg) in
+            print(backMsg)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    //delegate回调
+    func callbackDelegatefuc(backMsg:String){
+        print(backMsg)
     }
 
-
 }
+
+
+
 

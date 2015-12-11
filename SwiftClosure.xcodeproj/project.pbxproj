@@ -14,6 +14,7 @@
 		6461E6E21C1A6227006183A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6461E6E01C1A6227006183A7 /* LaunchScreen.storyboard */; };
 		6461E6ED1C1A6227006183A7 /* SwiftClosureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461E6EC1C1A6227006183A7 /* SwiftClosureTests.swift */; };
 		6461E6F81C1A6227006183A7 /* SwiftClosureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461E6F71C1A6227006183A7 /* SwiftClosureUITests.swift */; };
+		6461E70C1C1A6774006183A7 /* ProcessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461E70B1C1A6774006183A7 /* ProcessData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6461E6F31C1A6227006183A7 /* SwiftClosureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftClosureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6461E6F71C1A6227006183A7 /* SwiftClosureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClosureUITests.swift; sourceTree = "<group>"; };
 		6461E6F91C1A6227006183A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6461E70B1C1A6774006183A7 /* ProcessData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6461E6D71C1A6227006183A7 /* AppDelegate.swift */,
+				6461E70B1C1A6774006183A7 /* ProcessData.swift */,
 				6461E6D91C1A6227006183A7 /* ViewController.swift */,
 				6461E6DB1C1A6227006183A7 /* Main.storyboard */,
 				6461E6DE1C1A6227006183A7 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6461E6DA1C1A6227006183A7 /* ViewController.swift in Sources */,
+				6461E70C1C1A6774006183A7 /* ProcessData.swift in Sources */,
 				6461E6D81C1A6227006183A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
